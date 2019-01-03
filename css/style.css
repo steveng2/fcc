@@ -1,0 +1,159 @@
+body {
+  background-color: #556676;
+}
+
+#wrapper {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* https://color.adobe.com/paint-colors-1-color-theme-11741445/ */
+/* 556676 == background
+   D6D1CD == p 
+   F5E1E0 h1, h2 h3,
+   F1F1F1 == a nav
+   E9CDCA == hover 
+
+
+
+
+*/
+
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    max-height: 155px;
+    justify-content: space-around;
+    
+}
+#logo {
+    float: left;
+    margin-left: -50px;
+}
+#nav-bar a { 
+    justify-content: flex-end;
+    font-size: 16px;
+    text-decoration: none;
+    float: right;
+    align-items: center;
+    background-color: #F1F1F1;
+    text-decoration: uppercase;
+    padding: 3px;
+    color: #000000;
+    font-weight: 200;
+
+}
+#nav-bar a:hover {
+    color:      #E9CDCA;
+    font-weight: 600;
+    
+}
+section #form {
+    margin-top: 10px;
+    padding: 4px;
+}
+section #signup {
+    margin-top: 40px;
+    align-items: center;
+    min-width: 100%;
+    height: 100%; 
+}
+#form {
+    margin-top: 1px;
+}
+
+h2.main-title {
+    padding-top: 100px;
+    color:    #F5E1E0;
+    font-weight: 100;
+}
+
+#pricing {
+    margin-top: 120px;
+    display: flex;
+    max-width: 100%;
+}
+
+.box1, .box2, .box3 {
+    width: 33%;
+    background-color: #556676;
+    border: 1px solid;
+    color: #D6D1CD;
+}
+
+.box2 {
+   width: 33%;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.box3 {
+    width: 34%;
+}
+.box1 p.desc {
+    color: #D6D1CD;
+    padding: 3px;
+}
+
+.title-desc-box {
+ background-color: #D6D1CD;
+ color: #000000;
+ text-align: center;
+ font-size: 22px;
+}
+.btn {
+    align-content: center;
+    color: black;
+    background-color:  #E9CDCA;
+    font-weight: 300;
+}
+#videoplayer {
+padding-top: 10px;
+margin-top: 30px;
+}
+
+/*  we make landing pages */
+
+#we-make-landing-pages {
+    display: block;
+    height: 300px;
+}
+.title-we-make-landing {
+    color:   #F5E1E0;
+    text-align: center;
+}
+#box-containter { 
+    /* padding: 40px; */
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.boximgholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#box-container .boximgholder {
+    /* align-items: center; */
+} 
+.boximgholder i  {
+    justify-content: flex-end;
+    /* /* width: 100%;  */
+    color: #F5E1E0;
+    padding: 3px;
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+h3  {
+    font-size: 16px;
+    /* width: 50%;
+    padding: 30px; */
+    color: #000;
+    margin: 3px;
+    padding: 4px;
+  
+}
