@@ -13,9 +13,6 @@ body {
    F1F1F1 == a nav
    E9CDCA == hover 
 
-
-
-
 */
 
 #header {
@@ -114,7 +111,6 @@ margin-top: 30px;
 }
 
 /*  we make landing pages */
-
 #we-make-landing-pages {
     display: block;
     height: 300px;
@@ -156,4 +152,72 @@ h3  {
     margin: 3px;
     padding: 4px;
   
+}
+/* Footer   */
+
+footer {
+    width: 100%;
+    background-color: #F1F1F1
+}
+footer ul li a {
+    display: inline;
+    text-decoration: none;
+    min-height: 30px;
+    padding: 5px;
+    color: #000;
+    font-weight: 400;
+   
+}
+
+ul li {
+    text-decoration-color: #000;
+    text-decoration: none;
+    display: inline;
+    list-style-type: none;
+    padding: 4px;
+    font-weight: 300; 
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #E9CDCA; 
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      max-width: 100%;
+    }
+
+    #signup {
+        margin: auto;
+    }
+    #pricing {
+        display: block;
+        margin: auto;
+        width: 100%;
+        
+    }
+    .box1, .box2, .box3 {
+        max-width: 100%;    
+        margin: auto;
+    }
+   
+    .box2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #videoplayer {
+        margin: auto;
+        max-width: 90%;
+        /* width: 40px; */
+    }
+
+    iframe {
+        max-width: 90%;
+        max-height: 70%;
+    }
+    .boximgholder  {
+       font-size: .7em;
+    }
 }
